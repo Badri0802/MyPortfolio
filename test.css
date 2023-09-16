@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.navibar{
+    position: sticky;
+    top:0px;
+    background-color: #38598b;
+    color:rgb(252, 248, 248);
+    display:flex;
+    justify-content:space-between;
+    font-weight: 600;
+}
+.navibar ul li{
+    display: inline;
+}
+.navibar ul{list-style-type:none;}
+.navibar ul li a{
+    color:rgb(255, 250, 250);
+    text-decoration: none;
+    justify-content: center;
+font-size: 2.3vmin;
+font-weight: 1000;
+justify-content: center;
+align-items: center;
+padding-right: 5vmin;
+}
+.navibar h4{margin-left: 4vmin;
+    color:rgb(255, 250, 250);
+    text-decoration: none;
+font-size: 2.3vmin;
+justify-content: center;
+font-weight: 1000;}
+.navibar ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0.25vh;
+    text-underline-offset: 0.4vh;
+}
+.toggl{
+    font-size: 3.7vmin;
+    display: flex;
+    justify-content: center;
+    padding:1.5vmin;
+    position: absolute;
+    right: 2vmin;
+    display: none;
+}
+.home {
+    background-color: white;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12vmin;
+}
+.left img{
+    width: 35vmin;
+    margin-left: 2vw;
+    box-shadow: 0 0 20px #38598b;
+}
+.right{
+    margin-left: 15vmin;
+}
+.name{
+    
+    font-weight: 1000;
+    font-size: 7vmin;
+}
+.name span{
+    color: #38598b;
+}
+.intro{
+    font-size: 2.5vmin;
+}
+.academics{
+    margin: 0 0 0 6%;
+}
+.academics h2{
+    color: #38598b;
+    font-size: 3.9vmin;
+    font-weight: bold;
+    
+}
+.academics h3{
+    font-size: 2.8vmin;
+    font-weight: bold;
+}
+.academics p{
+    font-size: 2.5vmin;
+    margin-left: 2.2vmin;
+}
+.projects{
+    margin: 0px 0 0 6%;
+}
+.projects h2{
+    color: #38598b;
+    font-size: 3.9vmin;
+    font-weight: bold;
+}
+.projects h3{
+    font-size: 2.8vmin;
+    font-weight: bold;
+}
+.projects p{
+    font-size: 2.5vmin;
+    margin-left: 2.2vmin;
+}
+.about{
+    margin: 0 0 0 6%;
+}
+.about h2{
+    color: #38598b;
+    font-size: 3.9vmin;
+    font-weight: bold;
+}
+.about h3{
+    font-size: 2.8vmin;
+    font-weight: bold;
+}
+.about p{
+    font-size: 2.5vmin;
+    
+}
+.about ul li{
+    margin-bottom: 8px;
+    font-size: 2.5vmin;
+    margin-left: 2.2vmin;
+}
+.about ul li span{
+    font-weight: bold;
+}
+.contact{
+    margin-left: 6%;
+}
+.contact h2{
+    color: #38598b;
+    font-size: 3.9vmin;
+    font-weight: bold;
+}
+.contact p span{
+    font-size: 4vmin;
+    font-weight: bold;
+}
+.contact p{
+    font-size: 2.5vmin;
+}
+.top{
+    position: sticky;
+    bottom: 1vmin;
+    font-size: 2.8vmin;
+    border-radius: 50%;
+    background-color: #38598b ;
+    padding: 1.5vmin;
+    margin-left: 96.8%;
+}
+
+@media (max-width:915px) {
+    .home{
+        flex-wrap: wrap;
+    }
+    .right{
+        padding-top: 4vmin;
+        margin-left: 6vmin;
+     
+    }
+    .navibar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navibar ul li{
+        display: block;
+        align-items: center;
+        padding: 0.7vmin;
+        padding-left: 35vw;
+    }
+    .menu{
+        width: 100%;
+        display: none;
+        background-color: #113f67;
+    }
+    .toggl{
+        display: block;
+        top: 1vmin;
+        cursor: pointer;
+    }
+    .menu.active{
+        display: block;
+    }
+    
+}
